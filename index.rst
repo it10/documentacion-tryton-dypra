@@ -1,3 +1,9 @@
+.. Documentacion DYPRA master file, created by
+   sphinx-quickstart on Tue Apr 8 11:57:59 2014.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+
 Documentacion DYPRA
 ===================
 
@@ -38,6 +44,7 @@ El modulo Producto posee las categorías y productos necesarios para la gestion 
 
 .. image:: img/catproductos.png
    :width: 750 px
+   :align: center
 
 Ademas se provee un fichero que inserta los productos correspondientes en cada tipo, con su precio de lista, precio de costo ($0 ya que son servicios) e impuestos asociado. Asi como un producto especial, "Bonificacion" provisto para facilitar descuentos en las ventas.
 
@@ -91,18 +98,22 @@ Y se sigue según sea:
 Se busca un cliente asociado a ventas en efectivo, el tipo de servicio que se va a vender (Diario, Radio o Digital), y la categoría (como las mencionadas más arriba). Luego se pasa a seleccionar el producto (ya filtrado por lo elegido en el paso anterior) y el origen. De acuerdo al producto se registran datos particulares del aviso, como cantidades (cm x col, líneas, paginas o unidades),importes, ubicación, bonificación (porcentual y fija), texto que se desea publicar , y tipo de apariciones (Dia/s Específico/s, Semanal/es, Mensual/es o Anual), con lo cual se especifica la fecha de inicio, y en caso de ser días específicos como pueden ser discontinuos se pasa a seleccionar fecha por fecha lo cantidad requerida.
 
 Paso 1
+
 .. image:: img/efectivopasouno.png
    :width: 750 px
 
 Paso 2
+
 .. image:: img/efectivopasodos.png
    :width: 750 px
 
 Paso 3
+
 .. image:: img/efectivopasotres.png
    :width: 750 px
 
 Paso 4
+
 .. image:: img/efectivopasocuatro.png
    :width: 750 px
 
