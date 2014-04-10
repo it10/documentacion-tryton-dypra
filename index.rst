@@ -7,11 +7,6 @@
 Documentacion DYPRA
 ===================
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
 Introducción
 ============
 
@@ -118,7 +113,6 @@ Paso 4
 
 .. image:: img/efectivopasocuatro.png
    :width: 750 px
-
 
 
    * Cuenta Corriente:
