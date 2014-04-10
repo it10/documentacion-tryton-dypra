@@ -1,17 +1,11 @@
-.. documentacion modulos DYPRA documentation master file, created by
-   sphinx-quickstart on Mon Apr  7 17:10:44 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to documentacion modulos DYPRA's documentation!
-=======================================================
-
-Contents:
+Documentacion DYPRA
+===================
 
 .. toctree::
    :maxdepth: 2
 
 Introducción
+============
 Los modulos y adaptaciones que se detallan a continuacion se realizaron sobre sobre el ERP Tryton 3.0 para Medios El Independiente Coopegraf Ltda de La Rioja.
 Manteniendo estandares y genericidad para que pueda replicarse y reusarse en otros medios similares.
 
