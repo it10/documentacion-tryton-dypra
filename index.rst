@@ -90,7 +90,9 @@ En general, se puede seleccionar al principio el tipo de venta: Efectivo o Cuent
 
 Y se sigue según sea:
 
-   * Efectivo: Se busca un cliente asociado a ventas en efectivo, el tipo de servicio que se va a vender (Diario, Radio o Digital), y la categoría (como las mencionadas más arriba). Luego se pasa a seleccionar el producto (ya filtrado por lo elegido en el paso anterior) y el origen. De acuerdo al producto se registran datos particulares del aviso, como cantidades (cm x col, líneas, paginas o unidades),importes, ubicación, bonificación (porcentual y fija), texto que se desea publicar , y tipo de apariciones (Dia/s Específico/s, Semanal/es, Mensual/es o Anual), con lo cual se especifica la fecha de inicio, y en caso de ser días específicos como pueden ser discontinuos se pasa a seleccionar fecha por fecha lo cantidad requerida.
+Efectivo:
+"""""""""
+Se busca un cliente asociado a ventas en efectivo, el tipo de servicio que se va a vender (Diario, Radio o Digital), y la categoría (como las mencionadas más arriba). Luego se pasa a seleccionar el producto (ya filtrado por lo elegido en el paso anterior) y el origen. De acuerdo al producto se registran datos particulares del aviso, como cantidades (cm x col, líneas, paginas o unidades),importes, ubicación, bonificación (porcentual y fija), texto que se desea publicar , y tipo de apariciones (Dia/s Específico/s, Semanal/es, Mensual/es o Anual), con lo cual se especifica la fecha de inicio, y en caso de ser días específicos como pueden ser discontinuos se pasa a seleccionar fecha por fecha lo cantidad requerida.
 
 Paso 1
 
@@ -113,7 +115,9 @@ Paso 4
    :width: 750 px
 
 
-   * Cuenta Corriente: Idem que en el caso de Efectivo, solo que se contempla algunas categorías de Diario, más una categoría especial que es Centimetros, para el caso que se vende una cantidad determinada de centímetros a cuenta corriente (especificando cantidad de cm, col, y precio por cm)
+Cuenta Corriente:
+"""""""""""""""""
+Idem que en el caso de Efectivo, solo que se contempla algunas categorías de Diario, más una categoría especial que es Centimetros, para el caso que se vende una cantidad determinada de centímetros a cuenta corriente (especificando cantidad de cm, col, y precio por cm)
 
 .. image:: img/ctactecms.png
    :width: 750 px
