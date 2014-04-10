@@ -115,8 +115,8 @@ Paso 4
    :width: 750 px
 
 
-   * Cuenta Corriente:
 
+Cuenta Corriente:
 Idem que en el caso de Efectivo, solo que se contempla algunas categorías de Diario, más una categoría especial que es Centimetros, para el caso que se vende una cantidad determinada de centímetros a cuenta corriente (especificando cantidad de cm, col, y precio por cm)
 
 .. image:: img/ctactecms.png
