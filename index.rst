@@ -39,7 +39,7 @@ El modulo Producto posee las categorías y productos necesarios para la gestion 
 	   * Costo Nacional
 	   * Costo Oficial
 
-.. image:: img/catproductos.png
+.. figure:: img/catproductos.png
    :width: 750 px
 
 Ademas se provee un fichero que inserta los productos correspondientes en cada tipo, con su precio de lista, precio de costo ($0 ya que son servicios) e impuestos asociado. Asi como un producto especial, "Bonificacion" provisto para facilitar descuentos en las ventas.
