@@ -158,9 +158,12 @@ Modulos añadidos
 Edición
 -------
 
-El módulo de Edición consta de una plantilla "Edición" que es un conjunto de fechas (que corresponden a las ediciones), y poseen el listado de publicaciones de Diario, Radio y Digital que están previstas para dicha edición.
+El módulo de Edición consta de una plantilla "Edición" que es un conjunto de fechas (que corresponden a las ediciones), y poseen el listado de publicaciones de los distintos medios ya sea Diario, Radio y Digital que están previstas para dicha edición.
 
 .. image:: img/ediciones.png
+   :width: 750 px
+
+.. image:: img/publicacionesedicion.png
    :width: 750 px
 
 
@@ -171,12 +174,6 @@ Además se encuentran las plantillas:
 
 .. image:: img/menu.png
    :width: 750 px
-
-Las publicacioens de los distintos medios son tambien listadas dentro de Ediciones por fechas en comun.
-
-.. image:: img/publicacionesediciones.png
-   :width: 750 px
-
 
 
 Publicaciones Diario
@@ -223,7 +220,7 @@ Al igual que lo detallado en Publicaciones Diario no se recomienda realizar publ
 Suscripción
 -----------
 
-.. image:: img/suscricpcion.png
+.. image:: img/suscripcion.png
    :width: 750 px
 
 
