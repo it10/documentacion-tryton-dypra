@@ -68,6 +68,7 @@ El modulo Entidad provee las categorías necesarias para registrar clientes para
    * Cliente/Cuenta Corriente/Particular
    * Cliente/Cuenta Corriente/Oficial
 
+
 .. image:: img/catclientes.png
    :width: 750 px
 
@@ -150,7 +151,87 @@ Y en caso de ser ventas del area de Cuenta Corriente la factura no se realiza al
 .. image:: img/facturaresumida.png
    :width: 750 px
 
+
 Modulos añadidos
 ================
+
+Edición
+-------
+
+El módulo de Edición consta de una plantilla "Edición" que es un conjunto de fechas (que corresponden a las ediciones), y poseen el listado de publicaciones de Diario, Radio y Digital que están previstas para dicha edición.
+
+.. image:: img/ediciones.png
+   :width: 750 px
+
+
+Además se encuentran las plantillas: 
+   * Publicaciones Diario,
+   * Publicaciones Radio y 
+   * Publicaciones Digitales
+
+.. image:: img/menu.png
+   :width: 750 px
+
+Las publicacioens de los distintos medios son tambien listadas dentro de Ediciones por fechas en comun.
+
+.. image:: img/publicacionesediciones.png
+   :width: 750 px
+
+
+
+Publicaciones Diario
+""""""""""""""""""""
+
+En esta opción se encuentra el listado de publicaciones diferenciadas cuatro pestañas por el estado en que se encuentran, ya que se considera que una publicación puede estar en "Reprogramar" (cuando la fecha esta vencida u obsoleta), "Pendiente" (cuando esta prevista para una fecha mayor a la actual), "Publicada" (cuando se corroboró que fue publicada en alguna edición) o "Cancelada".
+
+.. image:: img/publicacionesdiario.png
+   :width: 750 px
+
+En el caso de Publicaciones Diario, además de todos los avisos que se vendieron en Efectivo y Cuenta Corriente, se encuentra en estado “Reprogramar” el aviso especial Centímetros, el cual se puede modificar ingresando al formulario y eligiendo la opción “Diseñar” que provee un asistente similar al del módulo ventas, que permite usar esos centimetros disponibles en algun aviso que tenga “cm” como unidad de medida.
+
+.. image:: img/cms.png
+   :width: 750 px
+
+Cabe destacar que se puede crear una publicacion que se asocie a una edicion desde esta funcionalidad, pero se debe tener en cuenta que no registrara ventas ni facturas, por lo cual se recomienda usar el Asistente de Venta descripto anteriormente el cual asigna adecuadamente las publicaciones en el estado correspondiente.
+
+.. image:: img/altapubldiario.png
+   :width: 750 px
+
+Este módulo posee además dos tipos de reportes, uno para guía de avisos comerciales y otro para guía de avisos clasificados en formato .odt.
+
+Publicaciones Radio
+"""""""""""""""""""
+
+Las Publicaciones Radio son similares a las de diario solo que mas genéricas ya que se consideran como productos que corresponden a un programa especifico que ya tiene definida la cantidad de menciones, categorizadas por Costo Provincial, Costo Nacional o Costo Oficial, que son asociadas a una Edicion (como fecha de aparición)
+
+.. image:: img/altapublradio.png
+   :width: 750 px
+
+Se debe tener en cuenta que por las mismas razones que las explicadas en Publicaciones Diario es conveniente el uso del Asistente de Venta.
+
+
+Publicaciones Digital
+"""""""""""""""""""""
+
+Las Publicaciones Digital corresponden a la colocacion de Banners publicitarios en una pagina web, que al igual que en radio se categorizan por Costo Provincial, Costo Nacional y Costo Oficial, y a diferencia del resto se pueden asignar multiples Ediciones (o fechas), ya que generalmente abarcan un periodo de tiempo de aparicion.
+
+.. image:: img/altapubldigital.png
+   :width: 750 px
+
+Al igual que lo detallado en Publicaciones Diario no se recomienda realizar publicaciones por fuera del Asistente de Venta.
+
+Suscripción
+-----------
+
+.. image:: img/suscricpcion.png
+   :width: 750 px
+
+
+Suscripción consta de las suscripciones de clientes al diario. 
+El cual brinda un asistente que permite definir un periodo de suscripción. 
+Cada suscripción consta de entregas las cuales pueden estar en "Pendiente", "Entregada" o "Pagada". El estado de una suscripción “Pagada” se da cuando se registra el pago de un periodo. Para lo cual se provee la visualización de las facturas asociadas para generar y realizar los pagos de las mismas. 
+
+.. image:: img/altasuscripcion.png
+   :width: 750 px
 
 
